@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Breaking Bad</title>
+  <link rel="stylesheet" href="projeto.css">
+</head>
+<body>
+
+  <section id="home" class="tela ativa">
+    <h1>🧪 Descubra quem você é em Breaking Bad</h1>
+    <p>
+      Entre no mundo do crime, química e decisões perigosas.
+      Responda às perguntas e descubra seu verdadeiro lado.
+    </p>
+    <button onclick="iniciarQuiz()">Começar</button>
+  </section>
+
+  <section id="quiz" class="tela">
+    <h2 id="pergunta"></h2>
+    <div id="opcoes"></div>
+  </section>
+
+  <section id="resultado" class="tela">
+    <h2>Seu resultado:</h2>
+    <img id="imgPersonagem" src="" alt="">
+    <h3 id="nomePersonagem"></h3>
+    <p id="descPersonagem"></p>
+    <p id="pontuacao"></p>
+    <button onclick="reiniciar()">Refazer Quiz</button>
+  </section>
+
+  <script src="projeto.js"></script>
+</body>
+</html>
