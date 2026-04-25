@@ -6,12 +6,30 @@
 }
 
 body {
-  background: linear-gradient(135deg, #0b3d2e, #1f6f4a);
+  background: url("https://i.redd.it/eiwesus9lfg81.jpg");
   color: white;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+body.home-ativa {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url("https://i.imgur.com/AtmLodp.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#home {
+  background: rgba(0, 0, 0, 0.7); 
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#quiz, #resultado {
+  background: linear-gradient(135deg, #0b3d2e, #1f6f4a);
+  padding: 40px;
+  border-radius: 10px;
 }
 
 .tela {
